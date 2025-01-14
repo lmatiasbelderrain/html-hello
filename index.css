@@ -1,0 +1,90 @@
+* {
+    font-family: "Roboto", sans-serif;
+    color:white
+}
+.post {
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(68, 58, 58);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+
+}
+
+.post .header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.post .header .text {
+margin-left: 8px;
+    display: flex;
+}
+
+
+.post .header .text .punto {
+
+    justify-content: right;
+}
+
+.post img {
+    width: 100%;
+    height: 60%;
+
+}
+
+.post .buttons {
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.post .buttons .heart {
+margin: 1px;
+    display: flex;
+    align-self: center;
+    font-size: 1.5em;
+
+}
+
+.post .buttons .comment {
+    margin: 1px;
+    display: flex;
+    align-self: center;
+    font-size: 1.5em;
+
+}
+
+.post .buttons .send {
+    margin: 1px;
+    display: flex;
+    align-self: center;
+    font-size: 1.5em;
+
+}
+
+.post .buttons .save {
+    margin: 1px;
+    display: flex;
+    align-self: self-end;
+    font-size: 1.5em;
+    justify-content: right;
+}
+.post .buttons :last-child{
+    margin-left: auto;
+}
+
+.post .text {
+    width: 100%;
+
+
+}
